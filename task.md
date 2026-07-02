@@ -38,5 +38,10 @@
     add following to .bashrc
         export JAVA_HOME="/usr/lib/jvm/java-25-openjdk-amd64"
         export PATH="$JAVA_HOME/bin:$PATH"
+    Run command  source ~/.bashrc  to update 
+10) Log file location and reading log file
+->  location => var/log/
+    cat syslog | sort -r | grep "error" | tail 
+    cat syslog | sort -r | grep "error" | head
 
 
