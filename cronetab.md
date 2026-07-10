@@ -59,6 +59,9 @@
 
 - └───────────── Minute (0 – 59)
 
+-We can give comma in the place of * for multiple
+eg. 0 1,4 * * * (It will run at 1 AM as well as 4 AM)
+
 - Check status using command → sudo service cron status
 
 - Can start manually using command → sudo service cron start
